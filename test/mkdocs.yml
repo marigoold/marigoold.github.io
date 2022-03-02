@@ -2,7 +2,9 @@ site_name: Kangaroo Site
 nav:
     - Home: 
       - test: index.md
-      # - test: note.md
-      - 源码阅读笔记: note.md
+      - 源码阅读笔记: 
+        - Megatron:
+          - create_masked_lm_predictions.md
+          - pad_and_convert_to_numpy.md
 theme: readthedocs
 
