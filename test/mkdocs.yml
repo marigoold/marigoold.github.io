@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Kangaroo Site
+nav:
+    - Home: 
+      - test: index.md
+      # - test: note.md
+      - 源码阅读笔记: note.md
+theme: readthedocs
+
