@@ -2,7 +2,7 @@
 
 代码地址在 https://github.com/NVIDIA/Megatron-LM/blob/e156d2fea7fc5c98e645f7742eb86b643956d840/megatron/data/dataset_utils.py#L181-L380
 
-```c++
+```python
 def create_masked_lm_predictions(tokens,
                                  vocab_id_list, vocab_id_to_token_dict,
                                  masked_lm_prob,
