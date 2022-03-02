@@ -94,7 +94,7 @@
               
                 <h3 id="megatron-create_masked_lm_predictions">Megatron 源码阅读笔记 —— <code>create_masked_lm_predictions</code></h3>
 <p>代码地址在 https://github.com/NVIDIA/Megatron-LM/blob/e156d2fea7fc5c98e645f7742eb86b643956d840/megatron/data/dataset_utils.py#L181-L380</p>
-<pre><code class="language-c++">def create_masked_lm_predictions(tokens,
+<pre><code class="language-python">def create_masked_lm_predictions(tokens,
                                  vocab_id_list, vocab_id_to_token_dict,
                                  masked_lm_prob,
                                  cls_id, sep_id, mask_id,
